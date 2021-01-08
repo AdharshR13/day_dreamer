@@ -11,12 +11,12 @@ k='''
 
 
 
-temp=k
+
 
 score=0
 cscore=0
 
-
+#winning combinations
 set1={'1','2','3'}
 set2={'4','5','6'}
 set3={'7','8','9'}
@@ -74,7 +74,6 @@ def s8(s):
 
 while(True):
     print(k)
-    k=temp
     print()
     choice=input("Please enter the choice of player 1 as X/O:")
     d=choice.capitalize()
